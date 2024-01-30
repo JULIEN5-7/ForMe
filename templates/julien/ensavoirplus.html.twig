@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Learn more about JulienNkoma{% endblock %}
+
+{% block body %}
+<div class="container mt-5 text-center">
+    <h1>Learn more about JulienNkoma</h1>
+
+    <section class="my-4">
+        <h2>My Hobbies</h2>
+        <p>Since childhood, I have enjoyed cooking African and foreign dishes. Whenever I can, I indulge in this passion. In my free time, I watch anime and conduct research related to my education and topics that interest me.</p>
+        <div class="image-gallery d-flex justify-content-between">
+            <img src="{{ asset('images/poulet-a-la-sauce-graine-gabon..jpg') }}" alt="Image 1" class="img-fluid img-thumbnail">
+            <img src="{{ asset('images/dragon-ball-z-poster-cell-saga-.jpg') }}" alt="Image 2" class="img-fluid img-thumbnail">
+            <img src="{{ asset('images/info.jpg') }}" alt="Image 3" class="img-fluid img-thumbnail">
+        </div>
+    </section>
+
+    <section class="my-4">
+        <h2>My Passions</h2>
+        <p>I really enjoy playing football; it helps me forget all my problems when I'm on the field. I've also developed a passion for anime, and I'm quite skilled at drawing. Additionally, Christianity has been a significant part of my life since childhood, and the Christian faith is important to me.</p>
+        <div class="image-gallery">
+            <img src="{{ asset('images/Ronaldo.jpg') }}" alt="Image 1" class="img-fluid img-thumbnail">
+            <img src="{{ asset('images/dessin-coiffure-fille-manga.jpg') }}" alt="Image 2" class="img-fluid img-thumbnail">
+            <img src="{{ asset('images/croix.jpg') }}" alt="Image 3" class="img-fluid img-thumbnail">
+            <img src="{{ asset('images/piano.jpg') }}" alt="Image 4" class="img-fluid img-thumbnail">
+        </div>
+    </section>
+
+    <section class="my-4">
+        <h2>My Desires</h2>
+        <p>To become wealthy, achieve stability, and be on good terms with everyone.</p>
+        <div class="image-gallery d-flex justify-content-between">
+            <img src="{{ asset('images/argent.jpg') }}" alt="Image 1" class="img-fluid img-thumbnail">
+            <img src="{{ asset('images/Sans titre.jpg') }}" alt="Image 2" class="img-fluid img-thumbnail">
+        </div>
+    </section>
+</div>
+{% endblock %}
